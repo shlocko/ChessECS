@@ -7,10 +7,12 @@ public class State {
 
     private List<Entity> entities = new ArrayList<>();
 
-    public void handleMessage(String message){
 
-    }
     public void addEntity(Entity entity){
         entities.add(entity);
+    }
+
+    public List<Entity> getEntities(){
+        return entities;
     }
 }

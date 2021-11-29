@@ -1,6 +1,6 @@
 package com.company;
 
-public class Component {
+public abstract class Component {
     String componentName;
 
     public String getComponentName(){
